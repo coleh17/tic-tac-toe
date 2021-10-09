@@ -1,14 +1,9 @@
 #include <iostream>
 #include "GameBoard.h"
+#include "TicTacToe.h"
 
 int main()
 {
-
-    GameBoard game;
-
-    game.printBoard();
-
-    std::cout << game.checkForWin() << std::endl;
-
+    TicTacToe game;
     return 0;
 }
